@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b",
-    "dev":"tsc -b && node dist/index.js"
+    "dev": "tsc -b && node dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "esbuild": "^0.20.2",
     "express": "^4.19.2"
   },
   "devDependencies": {
